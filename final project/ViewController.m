@@ -7,8 +7,15 @@
 //
 
 #import "ViewController.h"
+#import "SecondView.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *btn_one;
+@property (weak, nonatomic) IBOutlet UIButton *btn_two;
+@property (weak, nonatomic) IBOutlet UIButton *btn_three;
+@property (weak, nonatomic) IBOutlet UIButton *btn_four;
+@property (weak, nonatomic) IBOutlet UIButton *btn_five;
+
 
 @end
 
@@ -26,4 +33,6 @@
 }
 
 
+- (IBAction)btn_one:(UIButton *)sender {
+}
 @end

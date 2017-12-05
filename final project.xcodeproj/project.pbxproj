@@ -15,6 +15,7 @@
 		DB2DFE5E1FC5E61B002C5DBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2DFE5D1FC5E61B002C5DBB /* main.m */; };
 		DB2DFE681FC5E61B002C5DBB /* final_projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2DFE671FC5E61B002C5DBB /* final_projectTests.m */; };
 		DB2DFE731FC5E61B002C5DBB /* final_projectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2DFE721FC5E61B002C5DBB /* final_projectUITests.m */; };
+		DBDE05BD1FD70B4F00BC154E /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE05BC1FD70B4F00BC154E /* SecondView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DB2DFE6E1FC5E61B002C5DBB /* final projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "final projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2DFE721FC5E61B002C5DBB /* final_projectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = final_projectUITests.m; sourceTree = "<group>"; };
 		DB2DFE741FC5E61B002C5DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBDE05BB1FD70B4F00BC154E /* SecondView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
+		DBDE05BC1FD70B4F00BC154E /* SecondView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				DB2DFE511FC5E61B002C5DBB /* ViewController.h */,
 				DB2DFE521FC5E61B002C5DBB /* ViewController.m */,
 				DB2DFE541FC5E61B002C5DBB /* Main.storyboard */,
+				DBDE05BB1FD70B4F00BC154E /* SecondView.h */,
+				DBDE05BC1FD70B4F00BC154E /* SecondView.m */,
 				DB2DFE571FC5E61B002C5DBB /* Assets.xcassets */,
 				DB2DFE591FC5E61B002C5DBB /* LaunchScreen.storyboard */,
 				DB2DFE5C1FC5E61B002C5DBB /* Info.plist */,
@@ -267,6 +272,7 @@
 			files = (
 				DB2DFE531FC5E61B002C5DBB /* ViewController.m in Sources */,
 				DB2DFE5E1FC5E61B002C5DBB /* main.m in Sources */,
+				DBDE05BD1FD70B4F00BC154E /* SecondView.m in Sources */,
 				DB2DFE501FC5E61B002C5DBB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
