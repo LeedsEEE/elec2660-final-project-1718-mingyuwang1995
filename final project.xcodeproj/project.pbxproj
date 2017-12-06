@@ -17,6 +17,11 @@
 		DB2DFE731FC5E61B002C5DBB /* final_projectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2DFE721FC5E61B002C5DBB /* final_projectUITests.m */; };
 		DBDE05BD1FD70B4F00BC154E /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE05BC1FD70B4F00BC154E /* SecondView.m */; };
 		DBDE05C01FD7101D00BC154E /* ThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE05BF1FD7101D00BC154E /* ThirdView.m */; };
+		DBDE05D91FD7FCB400BC154E /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE05D01FD7FCB400BC154E /* SVIndefiniteAnimatedView.m */; };
+		DBDE05DA1FD7FCB400BC154E /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DBDE05D31FD7FCB400BC154E /* SVProgressHUD.bundle */; };
+		DBDE05DB1FD7FCB400BC154E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE05D41FD7FCB400BC154E /* SVProgressHUD.m */; };
+		DBDE05DC1FD7FCB400BC154E /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE05D51FD7FCB400BC154E /* SVProgressAnimatedView.m */; };
+		DBDE05DD1FD7FCB400BC154E /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE05D61FD7FCB400BC154E /* SVRadialGradientLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,15 @@
 		DBDE05BC1FD70B4F00BC154E /* SecondView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
 		DBDE05BE1FD7101D00BC154E /* ThirdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdView.h; sourceTree = "<group>"; };
 		DBDE05BF1FD7101D00BC154E /* ThirdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdView.m; sourceTree = "<group>"; };
+		DBDE05D01FD7FCB400BC154E /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = "../../../NBATeam-1/NBATeam/svp/SVIndefiniteAnimatedView.m"; sourceTree = "<group>"; };
+		DBDE05D11FD7FCB400BC154E /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = "../../../NBATeam-1/NBATeam/svp/SVProgressHUD.h"; sourceTree = "<group>"; };
+		DBDE05D21FD7FCB400BC154E /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = "../../../NBATeam-1/NBATeam/svp/SVIndefiniteAnimatedView.h"; sourceTree = "<group>"; };
+		DBDE05D31FD7FCB400BC154E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = "../../../NBATeam-1/NBATeam/svp/SVProgressHUD.bundle"; sourceTree = "<group>"; };
+		DBDE05D41FD7FCB400BC154E /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = "../../../NBATeam-1/NBATeam/svp/SVProgressHUD.m"; sourceTree = "<group>"; };
+		DBDE05D51FD7FCB400BC154E /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = "../../../NBATeam-1/NBATeam/svp/SVProgressAnimatedView.m"; sourceTree = "<group>"; };
+		DBDE05D61FD7FCB400BC154E /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = "../../../NBATeam-1/NBATeam/svp/SVRadialGradientLayer.m"; sourceTree = "<group>"; };
+		DBDE05D71FD7FCB400BC154E /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = "../../../NBATeam-1/NBATeam/svp/SVProgressAnimatedView.h"; sourceTree = "<group>"; };
+		DBDE05D81FD7FCB400BC154E /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = "../../../NBATeam-1/NBATeam/svp/SVRadialGradientLayer.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +121,7 @@
 		DB2DFE4D1FC5E61B002C5DBB /* final project */ = {
 			isa = PBXGroup;
 			children = (
+				DBDE05C11FD7F56500BC154E /* open source codes */,
 				DB2DFE4E1FC5E61B002C5DBB /* AppDelegate.h */,
 				DB2DFE4F1FC5E61B002C5DBB /* AppDelegate.m */,
 				DB2DFE511FC5E61B002C5DBB /* ViewController.h */,
@@ -140,6 +155,22 @@
 				DB2DFE741FC5E61B002C5DBB /* Info.plist */,
 			);
 			path = "final projectUITests";
+			sourceTree = "<group>";
+		};
+		DBDE05C11FD7F56500BC154E /* open source codes */ = {
+			isa = PBXGroup;
+			children = (
+				DBDE05D21FD7FCB400BC154E /* SVIndefiniteAnimatedView.h */,
+				DBDE05D01FD7FCB400BC154E /* SVIndefiniteAnimatedView.m */,
+				DBDE05D71FD7FCB400BC154E /* SVProgressAnimatedView.h */,
+				DBDE05D51FD7FCB400BC154E /* SVProgressAnimatedView.m */,
+				DBDE05D31FD7FCB400BC154E /* SVProgressHUD.bundle */,
+				DBDE05D11FD7FCB400BC154E /* SVProgressHUD.h */,
+				DBDE05D41FD7FCB400BC154E /* SVProgressHUD.m */,
+				DBDE05D81FD7FCB400BC154E /* SVRadialGradientLayer.h */,
+				DBDE05D61FD7FCB400BC154E /* SVRadialGradientLayer.m */,
+			);
+			path = "open source codes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +282,7 @@
 				DB2DFE5B1FC5E61B002C5DBB /* LaunchScreen.storyboard in Resources */,
 				DB2DFE581FC5E61B002C5DBB /* Assets.xcassets in Resources */,
 				DB2DFE561FC5E61B002C5DBB /* Main.storyboard in Resources */,
+				DBDE05DA1FD7FCB400BC154E /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +308,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB2DFE531FC5E61B002C5DBB /* ViewController.m in Sources */,
+				DBDE05DD1FD7FCB400BC154E /* SVRadialGradientLayer.m in Sources */,
 				DB2DFE5E1FC5E61B002C5DBB /* main.m in Sources */,
 				DBDE05C01FD7101D00BC154E /* ThirdView.m in Sources */,
+				DBDE05DB1FD7FCB400BC154E /* SVProgressHUD.m in Sources */,
 				DBDE05BD1FD70B4F00BC154E /* SecondView.m in Sources */,
 				DB2DFE501FC5E61B002C5DBB /* AppDelegate.m in Sources */,
+				DBDE05D91FD7FCB400BC154E /* SVIndefiniteAnimatedView.m in Sources */,
+				DBDE05DC1FD7FCB400BC154E /* SVProgressAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

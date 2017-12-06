@@ -14,7 +14,7 @@ blue:((float)(hexValue & 0xFF))/255.0 alpha:1.0]
 
 #import <WebKit/WebKit.h>
 #import "ThirdView.h"
-
+#import "SVProgressHUD.h"
 
 @interface ThirdView ()<WKUIDelegate,WKNavigationDelegate>
 @property (weak, nonatomic) IBOutlet UIView *contentView;
@@ -66,7 +66,27 @@ blue:((float)(hexValue & 0xFF))/255.0 alpha:1.0]
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [SVProgressHUD dismiss];
+}
+//
+- (void)webView:(WKWebView *)webView didFailProvisionalNavigation:(WKNavigation *)navigation{
+    NSLog(@"error");
+    [SVProgressHUD showInfoWithStatus:@"error"];
+}
+//
+- (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation{
+    [SVProgressHUD show];
+}
+//
+- (void)webView:(WKWebView *)webView didCommitNavigation:(WKNavigation *)navigation{
+    [SVProgressHUD dismiss];
+    
+}
+- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation{
+    [SVProgressHUD dismiss];
+}
 
 /*
 #pragma mark - Navigation
