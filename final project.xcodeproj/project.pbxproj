@@ -16,6 +16,7 @@
 		DB2DFE681FC5E61B002C5DBB /* final_projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2DFE671FC5E61B002C5DBB /* final_projectTests.m */; };
 		DB2DFE731FC5E61B002C5DBB /* final_projectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2DFE721FC5E61B002C5DBB /* final_projectUITests.m */; };
 		DBDE05BD1FD70B4F00BC154E /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE05BC1FD70B4F00BC154E /* SecondView.m */; };
+		DBDE05C01FD7101D00BC154E /* ThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE05BF1FD7101D00BC154E /* ThirdView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		DB2DFE741FC5E61B002C5DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBDE05BB1FD70B4F00BC154E /* SecondView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
 		DBDE05BC1FD70B4F00BC154E /* SecondView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
+		DBDE05BE1FD7101D00BC154E /* ThirdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdView.h; sourceTree = "<group>"; };
+		DBDE05BF1FD7101D00BC154E /* ThirdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				DB2DFE4F1FC5E61B002C5DBB /* AppDelegate.m */,
 				DB2DFE511FC5E61B002C5DBB /* ViewController.h */,
 				DB2DFE521FC5E61B002C5DBB /* ViewController.m */,
+				DBDE05BE1FD7101D00BC154E /* ThirdView.h */,
+				DBDE05BF1FD7101D00BC154E /* ThirdView.m */,
 				DB2DFE541FC5E61B002C5DBB /* Main.storyboard */,
 				DBDE05BB1FD70B4F00BC154E /* SecondView.h */,
 				DBDE05BC1FD70B4F00BC154E /* SecondView.m */,
@@ -272,6 +277,7 @@
 			files = (
 				DB2DFE531FC5E61B002C5DBB /* ViewController.m in Sources */,
 				DB2DFE5E1FC5E61B002C5DBB /* main.m in Sources */,
+				DBDE05C01FD7101D00BC154E /* ThirdView.m in Sources */,
 				DBDE05BD1FD70B4F00BC154E /* SecondView.m in Sources */,
 				DB2DFE501FC5E61B002C5DBB /* AppDelegate.m in Sources */,
 			);

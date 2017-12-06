@@ -7,6 +7,7 @@
 //
 
 #import "SecondView.h"
+#import "ThirdView.h"
 
 @interface SecondView ()
 @property (weak, nonatomic) IBOutlet UIImageView *pic1;
@@ -22,7 +23,12 @@
 @end
 
 @implementation SecondView
-
+- (void)btn_moreaction{
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    ThirdView *vc = [sb instantiateViewControllerWithIdentifier:@"ThirdView"];
+    vc.TwoTypes = self.TwoTypes;
+    [self.navigationController pushViewController:vc animated:YES];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

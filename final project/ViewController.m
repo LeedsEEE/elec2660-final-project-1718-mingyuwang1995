@@ -20,10 +20,52 @@
 @end
 
 @implementation ViewController
+- (void)btn_oneAction{
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    
+    SecondView *vc = [sb instantiateViewControllerWithIdentifier:@"SecondView"];
+    vc.TwoTypes = TwoTypeOne;
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (void)btn_twoAction{
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    
+    SecondView *vc = [sb instantiateViewControllerWithIdentifier:@"SecondView"];
+    vc.TwoTypes = TwoTypeTwo;
+    
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)btn_threeAction{
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    SecondView *vc = [sb instantiateViewControllerWithIdentifier:@"SecondView"];
+    vc.TwoTypes = TwoTypeThree;
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (void)btn_fourAction{
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    SecondView *vc = [sb instantiateViewControllerWithIdentifier:@"SecondView"];
+    vc.TwoTypes = TwoTypeFour;
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)btm_fiveAciton{
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    SecondView *vc = [sb instantiateViewControllerWithIdentifier:@"SecondView"];
+    vc.TwoTypes = TwoTypeFive;
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.btn_one addTarget:self action:@selector(btn_oneAction) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.btn_two addTarget:self action:@selector(btn_twoAction) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.btn_three addTarget:self action:@selector(btn_threeAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.btn_four addTarget:self action:@selector(btn_fourAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.btn_five addTarget:self action:@selector(btm_fiveAciton) forControlEvents:UIControlEventTouchUpInside];
 }
 
 
